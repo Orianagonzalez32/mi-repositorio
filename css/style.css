@@ -54,6 +54,11 @@ a:hover {
     color: rgb(31, 161, 31);
 }
 
+.card__tineda{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* colores de titulos*/
 .titulos {

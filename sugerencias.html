@@ -3,6 +3,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Libreria Aos -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
     <title>Natural Balance-Sugerencias</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -10,11 +12,11 @@
   <header class="header"> <!-- Encabezado -->
     <div>
       <a href="./index.html">
-       <img src="./multimedia/1240789.png" alt="Logo" width="130">
+       <img data-aos="fade-down"data-aos-duration="1500" src="./multimedia/1240789.png" alt="Logo" width="130">
      </a>
     </div>
 
-     <nav class="menu-nav">            
+     <nav data-aos="fade-down"data-aos-duration="1500" class="menu-nav">            
              <ul class="ul-nav">
              <li><a href="./index.html">Inicio</a></li>
              <li><a href="./nosotros.html">Nosotros</a></li>
@@ -94,7 +96,10 @@
     <h3 class="coyrigth">Copyright 2021 Natural Balance| Todos los derechos reservados.</h3>
     </div>
 </footer>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 <script src="https://kit.fontawesome.com/59b3b89d05.js" crossorigin="anonymous"></script>
 

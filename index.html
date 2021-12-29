@@ -8,7 +8,9 @@
  <!-- links -->
  <!-- link bs -->
 <link rel="stylesheet" href="/bootstrap-4.6.1-dist/css/bootstrap.min.css">
- <!-- link estilo propio  -->
+<!-- Libreria Aos -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+<!-- link estilo propio  -->
  <link rel="stylesheet" href="./css/style.css">
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,11 +24,11 @@
   <header class="header">
     <div>
       <a href="./index.html">
-        <img class="imagen__header" src="./multimedia/1240789.png" width="120px" alt="Logo">
+        <img data-aos="fade-down"data-aos-duration="1500" class="imagen__header" src="./multimedia/1240789.png" width="120px" alt="Logo">
       </a>
     </div>
 
-    <nav class="menu-nav">
+    <nav data-aos="fade-down"data-aos-duration="1500" class="menu-nav">
       <ul class="ul-nav">
         <li><a href="./index.html">Inicio</a></li>
         <li><a href="./nosotros.html">Nosotros</a></li>
@@ -85,7 +87,7 @@
     </div>
     <section id="video">  
       <h3 class="titulos">Conceptos Básicos sobre alimentación consciente </h3>
-      <iframe class="vd" width="600" height="400" src="https://www.youtube.com/embed/hFzULwk_ZAs"
+      <iframe data-aos="fade-up-right" class="vd" width="600" height="400" src="https://www.youtube.com/embed/hFzULwk_ZAs"
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
@@ -116,8 +118,8 @@
       <input type="submit" value="Suscribite">
 
     </form>
-    <div class="contacto__menu">
-      <ul class="icon__menu">
+    <div data-aos="flip-left" class="contacto__menu">
+      <ul  class="icon__menu">
         <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
         <li><a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a></li>
         <li><a href="https://api.whatsapp.com/send/?phone=%2B5491158911265&text&app_absent=0"><i
@@ -127,7 +129,7 @@
       </ul>
     </div>
     <div class="copyrigth2">
-      <h3 class="coyrigth">Copyright 2021 Natural Balance| Todos los derechos reservados.</h3>
+      <h3  class="coyrigth">Copyright 2021 Natural Balance| Todos los derechos reservados.</h3>
       </div>
   </footer>
   
@@ -137,6 +139,10 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 

@@ -1,3 +1,9 @@
+@import "footer";
+@import "header";
+@import "nosotros";
+@import "tienda";
+
+
 
 * {
     margin: 0;
@@ -8,9 +14,7 @@
 }
 
 
-@media screen and (min-width: 768px){
-
-
+   
 
 /* colores de titulos*/
 .titulos {
@@ -26,7 +30,6 @@
 main section h1 span {
     color: #282828;
 }
-
 
 
 /* sección 2 */
@@ -63,121 +66,12 @@ section h3 {
     background-position: top right;
 }
 
-
-/* nosotros */
-.twotitle {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    text-align: center;
-    background-color: white;
-}
-.negrita {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(248, 248, 241);
-    height: auto;
-    width: 400px;
-    padding: 20px;
-    text-align: center;
-}
-.nosotros {
-    height: 400px;
-    background-image: url(../multimedia/vaso-agua-coco-sobre-fondo-blanco-madera_1150-28245.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.preguntas__frecuentes-p{
-    font-size: 1.2rem;
-}
 /* Tienda */
-.main {
-    background: linear-gradient(to top, var(--colorPrincipal), rgba(152, 168, 72, 0.171));
-    padding: 2rem;
-}
-
-.contenedor {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.blok {
-    display: block;
-}
-
-.main__articles {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-.main__articles__article {
-    width: 100%;
-    display: grid;
-    justify-items: center;
-}
-
-.main__articles__article div {
-    margin-left: 2rem;
-}
-.main__articles__div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 
 
-/* Footer----------------------------------------------------------------------------- */
-footer{
-background-attachment: fixed;
-background: #E6DADA;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-color: #fff;
-padding: 15px;
-width: 100%;
-}
-.copyrigth2{
-    display: flex;
-    justify-content: center;
-}
+/* NUEVO CSS RESPONSIVE */
 
-.gris {
-   font-size: 3rem;
-    text-align: center;
-    height: 50px;
-    position: relative;
-    margin-bottom: 34px;
-    
-    
-}
-
-.dark {
-    
-    font-size: 2.9rem;
-    height: 50px;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    margin-bottom: 34px;
-}
-
-.icon__menu li{
-    list-style: none;
-    display: inline-block;
-    font-size: 2rem;
-    margin: 1rem;
-}
-
-.contacto__menu{
-    display: flex;
-    justify-content: space-around;
-
-    
-}
-.coyrigth{
-    text-align: center;
-}
-}
-/* nuevo css */
 @media screen and (max-width: 700px){
     .header {
         background-color:rgb(231, 248, 231);
@@ -421,39 +315,3 @@ box-shadow: -2px 6px 5px -2px rgba(0,0,0,0.75);
 }
 
 
-.banner_tienda{
-   margin-top: 15px; 
-    width: 100%;
-    position: relative;
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-image: url(/multimedia/banner-tienda.jpg);
-    
-
-}
-
-.banner_tienda h1{
-text-align: center;
-top: 200px;
-position: relative;
-color:#fff;
-font-size: 4rem;
-font-family: 'Dancing Script', cursive; 
-}
-
-.banner_tienda p{
-    text-align: center;
-top: 200px;
-position: relative;
-color:#fff;
-font-size: 2rem;
-font-family: 'Dancing Script', cursive; 
-}
-
-.wave{
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}

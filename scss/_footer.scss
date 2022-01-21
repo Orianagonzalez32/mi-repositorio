@@ -1,0 +1,49 @@
+footer{
+    background-attachment: fixed;
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    }
+    .copyrigth2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .gris {
+       font-size: 3rem;
+        text-align: center;
+        height: 50px;
+        position: relative;
+        margin-bottom: 34px;
+        
+        
+    }
+    
+    .dark {
+        
+        font-size: 2.9rem;
+        height: 50px;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        margin-bottom: 34px;
+    }
+    
+    .icon__menu li{
+        list-style: none;
+        display: inline-block;
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    
+    .contacto__menu{
+        display: flex;
+        justify-content: space-around;
+    
+        
+    }
+    .coyrigth{
+        text-align: center;
+    }

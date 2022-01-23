@@ -1,0 +1,537 @@
+@charset "UTF-8";
+footer {
+  background-attachment: fixed;
+  background: #E6DADA;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #274046, #E6DADA);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #274046, #E6DADA);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  padding: 15px;
+  width: 100%;
+}
+
+.copyrigth2 {
+  display: flex;
+  justify-content: center;
+}
+
+.gris {
+  font-size: 3rem;
+  text-align: center;
+  height: 50px;
+  position: relative;
+  margin-bottom: 34px;
+}
+
+.dark {
+  font-size: 2.9rem;
+  height: 50px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 34px;
+}
+
+.icon__menu li {
+  list-style: none;
+  display: inline-block;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.contacto__menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.coyrigth {
+  text-align: center;
+}
+
+/* header----------------------------------------------------------------------------------- */
+.header {
+  background-color: #e7f8e7;
+  width: 600px;
+  -webkit-box-shadow: -2px 6px 5px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 6px 5px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 6px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+.ul-nav li {
+  list-style: none;
+  font-size: 2rem;
+}
+
+.ul-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.img {
+  height: 400px;
+  width: 600px;
+  background-image: url(../multimedia/sopa-tomate-albahaca-bol_114579-11378\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.title {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+}
+
+.titulos {
+  background-color: #dfecf5;
+  font-size: 2rem;
+  text-align: center;
+  width: 600px;
+}
+
+.header {
+  background-color: #e7f8e7;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.7rem;
+  -webkit-box-shadow: -2px 6px 5px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 6px 5px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 6px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ul-nav {
+  list-style: none;
+  /* width: 40%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  list-style: none;
+}
+
+a:hover {
+  color: #1fa11f;
+}
+
+.card__tineda {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* colores de titulos*/
+.titulos {
+  background-color: #dfecf5;
+  font-size: 25px;
+  text-align: center;
+}
+
+.title {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+}
+
+main section h1 span {
+  color: #282828;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+  background-color: #94a894;
+}
+
+
+@media screen and (min-width: 768px) {
+  /* encabezado*/
+  /* sección 1 */
+  .img {
+    height: 400px;
+    background-image: url(../multimedia/sopa-tomate-albahaca-bol_114579-11378\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin: 20px;
+    border: 5px;
+  }
+
+  /* sección 2 */
+  section h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  #video {
+    margin: 20px;
+    border: 5px;
+  }
+
+  .vd {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .verMas {
+    color: black;
+    font-weight: 700;
+    font-size: 1.6rem;
+    display: block;
+    text-align: center;
+  }
+
+  .gray {
+    height: 200px;
+    background-image: url(../multimedia/plata-pintada-sobre-fondo-textura-tela_53876-128562.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+  /* nosotros */
+  .twotitle {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+  }
+
+  .negrita {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #f8f8f1;
+    height: auto;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .nosotros {
+    height: 400px;
+    background-image: url(../multimedia/vaso-agua-coco-sobre-fondo-blanco-madera_1150-28245.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .preguntas__frecuentes-p {
+    font-size: 1.2rem;
+  }
+
+  /* Tienda */
+  .main {
+    background: linear-gradient(to top, var(--colorPrincipal), rgba(152, 168, 72, 0.171));
+    padding: 2rem;
+  }
+
+  .contenedor {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .blok {
+    display: block;
+  }
+
+  .main__articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .main__articles__article {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+  }
+
+  .main__articles__article div {
+    margin-left: 2rem;
+  }
+
+  .main__articles__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* Footer----------------------------------------------------------------------------- */
+}
+/* nuevo css */
+@media screen and (max-width: 700px) {
+  .header {
+    background-color: #e7f8e7;
+    width: 600px;
+    -webkit-box-shadow: -2px 6px 5px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 6px 5px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 6px 5px -2px rgba(0, 0, 0, 0.75);
+  }
+
+  .ul-nav li {
+    list-style: none;
+    font-size: 2rem;
+  }
+
+  .ul-nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .img {
+    height: 400px;
+    width: 600px;
+    background-image: url(../multimedia/sopa-tomate-albahaca-bol_114579-11378\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+  /* header----------------------------------------------------------------------------------- */
+  .header {
+    background-color: #e7f8e7;
+    width: 600px;
+    -webkit-box-shadow: -2px 6px 5px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 6px 5px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 6px 5px -2px rgba(0, 0, 0, 0.75);
+  }
+
+  .ul-nav li {
+    list-style: none;
+    font-size: 2rem;
+  }
+
+  .ul-nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .img {
+    height: 400px;
+    width: 600px;
+    background-image: url(../multimedia/sopa-tomate-albahaca-bol_114579-11378\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+  .title {
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+  }
+
+  .titulos {
+    background-color: #dfecf5;
+    font-size: 2rem;
+    text-align: center;
+    width: 600px;
+  }
+
+  /* MAIN--------------------------------------------------------------------------------- */
+  .gray {
+    height: 200px;
+    width: 598px;
+    background-image: url(../multimedia/plata-pintada-sobre-fondo-textura-tela_53876-128562.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+  .titulos {
+    font-size: 2rem;
+  }
+
+  .parrafo__sobre-nosotros {
+    font-size: 1.4rem;
+  }
+
+  .img__preguntas-frecuentes {
+    width: 598px;
+  }
+
+  .preguntas__frecuentes-p {
+    font-size: 1.6rem;
+  }
+
+  /* footer ----------------------------------------------------------------------------------------------*/
+  .gris {
+    background-color: gray;
+    text-align: center;
+    height: 50px;
+  }
+
+  .dark {
+    background-color: #c7c3c3;
+    font-size: 1.2rem;
+    height: 50px;
+    text-align: center;
+    font-size: 2.9rem;
+    height: 50px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    margin-bottom: 34px;
+  }
+
+  .icon__menu li {
+    list-style: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 1rem;
+  }
+
+  .icon__menu i {
+    color: black;
+  }
+
+  .contacto__menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .coyrigth {
+    text-align: center;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+
+  .copyrigth2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 360px) {
+  /* MAIN--------------------------------------------------------------------------------- */
+  .gray {
+    height: 200px;
+    width: 598px;
+    background-image: url(../multimedia/plata-pintada-sobre-fondo-textura-tela_53876-128562.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+  .titulos {
+    font-size: 2rem;
+  }
+
+  .parrafo__sobre-nosotros {
+    font-size: 1.4rem;
+  }
+
+  .img__preguntas-frecuentes {
+    width: 598px;
+  }
+
+  .preguntas__frecuentes-p {
+    font-size: 1.6rem;
+  }
+
+  /* footer ----------------------------------------------------------------------------------------------*/
+  .gris {
+    background-color: gray;
+    text-align: center;
+    height: 50px;
+    width: 595px;
+  }
+
+  .dark {
+    background-color: #c7c3c3;
+    height: 50px;
+    text-align: center;
+    font-size: 2rem;
+    height: 50px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    margin-bottom: 34px;
+  }
+
+  .icon__menu li {
+    list-style: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 1rem;
+  }
+
+  .icon__menu i {
+    color: black;
+  }
+
+  .contacto__menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .coyrigth {
+    text-align: center;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+
+  .copyrigth2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+.banner_tienda {
+  margin-top: 15px;
+  width: 100%;
+  position: relative;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/multimedia/banner-tienda.jpg);
+}
+
+.banner_tienda h1 {
+  text-align: center;
+  top: 200px;
+  position: relative;
+  color: #fff;
+  font-size: 4rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.banner_tienda p {
+  text-align: center;
+  top: 200px;
+  position: relative;
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.wave {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=estilos.css.map */

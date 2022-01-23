@@ -1,0 +1,73 @@
+.main {
+    background: linear-gradient(to top, var(--colorPrincipal), rgba(152, 168, 72, 0.171));
+    padding: 2rem;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blok {
+    display: block;
+}
+
+.main__articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.main__articles__article {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+
+.main__articles__article div {
+    margin-left: 2rem;
+}
+.main__articles__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.banner_tienda{
+    margin-top: 15px; 
+     width: 100%;
+     position: relative;
+     height: 500px;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+     background-image: url(/multimedia/banner-tienda.jpg);
+     
+ 
+ }
+ 
+ .banner_tienda h1{
+ text-align: center;
+ top: 200px;
+ position: relative;
+ color:#fff;
+ font-size: 4rem;
+ font-family: 'Dancing Script', cursive; 
+ }
+ 
+ .banner_tienda p{
+     text-align: center;
+ top: 200px;
+ position: relative;
+ color:#fff;
+ font-size: 2rem;
+ font-family: 'Dancing Script', cursive; 
+ }
+ 
+ .wave{
+     position: absolute;
+     width: 100%;
+     bottom: 0;
+ }
+ .card__tineda{
+    display: flex;
+    justify-content: space-between;
+}

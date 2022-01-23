@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @mixin estilo__letra {
     font-size: 2.9rem;
     height: 50px;
@@ -6,6 +7,8 @@
     margin-bottom: 34px;
     
 }
+=======
+>>>>>>> 9a90a793291c38dafae12116bfa10a52fc84a79f
 footer{
     background-attachment: fixed;
     background: #E6DADA;  /* fallback for old browsers */
@@ -31,7 +34,16 @@ footer{
     }
     
     .dark {
+<<<<<<< HEAD
        @include estilo__letra;
+=======
+        
+        font-size: 2.9rem;
+        height: 50px;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        margin-bottom: 34px;
+>>>>>>> 9a90a793291c38dafae12116bfa10a52fc84a79f
     }
     
     .icon__menu li{

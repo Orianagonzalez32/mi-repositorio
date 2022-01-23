@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $bg-variable1:rgb(223, 236, 245);
 $bg-header1:rgb(231, 248, 231);
 
@@ -41,6 +42,8 @@ text-align: center;
 width: 600px;
 }
 
+=======
+>>>>>>> 9a90a793291c38dafae12116bfa10a52fc84a79f
 .header {
     background-color: rgb(  231, 248, 231);
     width: 100%;
@@ -52,10 +55,47 @@ width: 600px;
     -webkit-box-shadow: -2px 6px 5px -2px rgba(0,0,0,0.75);
 -moz-box-shadow: -2px 6px 5px -2px rgba(0,0,0,0.75);
 box-shadow: -2px 6px 5px -2px rgba(0,0,0,0.75);
+<<<<<<< HEAD
+=======
+    & .menu-nav  {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    } 
+    & .ul-nav    {
+            list-style: none;
+            /* width: 40%; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+    & ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    & a {
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+        list-style: none;
+    }
+    & a:hover {
+        color: rgb(31, 161, 31);
+        
+    }
+     
+        }
+>>>>>>> 9a90a793291c38dafae12116bfa10a52fc84a79f
     
     
 }
 
+<<<<<<< HEAD
 .menu-nav  {
     display: flex;
     justify-content: flex-end;
@@ -114,3 +154,9 @@ a:hover {
 main section h1 span {
     color: #282828;
 }
+=======
+
+
+
+
+>>>>>>> 9a90a793291c38dafae12116bfa10a52fc84a79f
